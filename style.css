@@ -1,0 +1,111 @@
+
+* {
+    margin: 0%;
+    padding: 0%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .background {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .background_img {
+    z-index: -1;
+    width: 100vw;
+  }
+
+  .wallpaper {
+    margin-top: 2vh;
+  }
+
+  .wallpaper img {
+    align-items: start;
+    justify-content: start;
+    border: 2px solid white;
+    border-radius: 50rem;
+    height: 12rem; /* Increased size */
+    position: relative;
+    bottom: 4vh;
+    margin-left: 1vw;
+    z-index: 1;
+  }
+
+  .sec {
+    position: relative;
+    bottom: 2vh;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #name {
+    flex: 1;
+    font: 11;
+    font-size: 3vw;
+    font-weight: bold;
+    text-decoration: solid;
+    margin-top: 1vh; /* Adjusted margin */
+  }
+
+  span {
+    font-size: 2vw;
+    width: 70vw;
+  }
+
+  .set {
+    margin-left: 80vw;
+    align-self: flex-start;
+  }
+
+  #college {
+    width: 20vw;
+    text-align: center;
+    align-self: flex-start;
+    overflow: hidden;
+  }
+  #city{
+    margin-left: 34px;
+  }
+  #connection{
+ color: blue;
+ margin-left: 34px;
+ font-weight: bold;
+  }
+  .button {
+    width: 250px;
+  justify-content: space-evenly;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    margin-left: 30px;
+    cursor: pointer;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#buttonone {
+    color: white;
+    background-color: rgb(68, 68, 220);
+    border-radius: 30px;
+    text-align: center;
+}
+#buttontwo{
+  color: blue;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  text-align: center; 
+}
+#buttonthree{
+  color: gray;
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  text-align: center; 
+}
+
+
+
